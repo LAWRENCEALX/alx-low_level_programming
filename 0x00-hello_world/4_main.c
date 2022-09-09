@@ -1,12 +1,6 @@
-nclude <stdio.h>
-
-/**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+#include <stdio.h>
 int main(void)
 {
 		printf("ALX School");
-			return (0);
+		return (0);
 }
