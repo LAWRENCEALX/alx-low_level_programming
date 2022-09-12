@@ -1,20 +1,17 @@
 #include <stdio.h>
 /*
- * printing alphabet
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = 97;
+	char letter;
 
-	while (i < 123)
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	{
-		putchar(97);
-		i++;
-	}
-
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }
-
