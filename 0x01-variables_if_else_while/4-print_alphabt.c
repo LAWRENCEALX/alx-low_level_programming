@@ -2,7 +2,7 @@
 /*
  * print letters of alphabet
  */
-void main)
+void main()
 {
 	int i = 97;
 
