@@ -1,8 +1,9 @@
 # include <stdio.h>
 /*
  * print letters of alphabet
+ *
  */
-void main()
+int main(void)
 {
 	int i = 97;
 
