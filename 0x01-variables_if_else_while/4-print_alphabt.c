@@ -1,11 +1,17 @@
 # include <stdio.h>
 /*
- * print letters of alphabet
+ * main - print letters of alphabet
  *
+ * description: program will print alphabet in lower case
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int i = 97;
+	int i;
+
+	i = 97;
 
 	while (i < 123)
 	{
