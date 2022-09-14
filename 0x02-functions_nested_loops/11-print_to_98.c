@@ -1,20 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
- *
- * Description: give two integers, returns sum
- *
- * Return: sum
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: starting point
+ * Return: returns nothing
  */
-
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-	int sum;
-
-	sum = n1 + n2;
-
-	return (sum);
+	if (n <= 98)
+	{
+		for (n = n; n <= 97; n++)
+			printf("%d, ", n);
+	}
+	else
+		for (n = n; n > 98; n--)
+			printf("%d, ", n);
+	printf("98\n");
 }
