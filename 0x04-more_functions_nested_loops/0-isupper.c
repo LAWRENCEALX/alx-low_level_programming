@@ -1,6 +1,9 @@
 #include "main.h"
-
-
+/**
+ * _isupper - print capitalized alphabet
+ * @c: c is an alphabet
+ * Return: Always 0
+ */
 
 int _isupper(int c)
 {
